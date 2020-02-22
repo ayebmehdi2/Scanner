@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR CODE"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_qr_code"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Login"
+            android:textSize="16sp"
+            android:id="@+id/login"
+            android:alpha="0"
+            android:textColor="#FFF"
+            android:background="@drawable/back_login_bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp"/>
+
+
+    </RelativeLayout>
+</layout>
