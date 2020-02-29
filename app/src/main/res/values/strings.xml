@@ -3,4 +3,13 @@
     <string name="title_activity_home">Home</string>
     <string name="scanny">Scanny</string>
 
+    <string name="no_disponible">Non disponible</string>
+
+        <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+        <string name="facebook_application_id" translatable="false">2537046406582731</string>
+        <string name="facebook_login_protocol_scheme" translatable="false">fb2537046406582731</string>
+    <string name="entrez_une_valeur_ici">Entrez une valeur ici</string>
+    <string name="annuler">annuler</string>
+    <string name="faire">faire</string>
+
 </resources>
